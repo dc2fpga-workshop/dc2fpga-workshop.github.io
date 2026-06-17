@@ -20,7 +20,8 @@ body {
 
 a {
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
+    color: #3498db;
     transition: color 0.3s;
 }
 
