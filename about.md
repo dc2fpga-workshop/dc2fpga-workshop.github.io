@@ -7,7 +7,7 @@ Today, FPGAs are widely adopted across diverse computing systems, especially in 
 This workshop aims to discuss the state-of-the-art and future of FPGA computing stacks at cloud scale, from hardware to software, across multiple computing domains—including hardware architecture, high-performance computing (HPC), operating systems, programming language, and quantum computing. The workshop consists of three parts: (1) A hands-on introduction and tutorial to Coyote, an open-source HW/SW system stack for data center FPGAs, (2) invited talks about multi-domain cloud FPGA systems, and (3) a technical session for talks from researchers, students, and engineers working on relevant research domains. 
 
 ## Call for Talks
-We invite submissions for talks on a broad range of FPGA-related research, from application-specific hardware acceleration to software/runtime support for FPGAs. Each presenter has 30-min slot including Q&A. Both recently published and ongoing works are welcome. 
+We invite submissions for talks on a broad range of FPGA-related research, from application-specific hardware acceleration to software/runtime support for FPGAs. Every presenter has 15-20 minutes for talk and 5 minutes for Q&A. Both recently published and ongoing works are welcome. 
 
 The topics include, but are not limited to: 
 - FPGA adoption and orchestration in cloud data centers
