@@ -21,7 +21,7 @@ The topics include, but are not limited to:
 
 ## Talk Submission 
 
-If you would like to participate in the workshop, please submit a 1-page abstract of your talk before the deadline. We do not specify the format but recommend 2-column, single-spaced, and 10-pt fontsize drafts. 
+If you would like to participate in the workshop, please submit a short abstract of your talk (up to 1000 words) with presenter(s) information before the deadline. 
 
 ### Submission form
 
