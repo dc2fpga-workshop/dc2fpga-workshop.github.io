@@ -175,40 +175,40 @@ ul {
     text-align: center;
 }
 
-/* About Content (Markdown styling) */
-#about-content {
+/* Markdown Content (About, Invited Talks, etc.) */
+.markdown-content {
     background: white;
     padding: 40px;
     border-radius: 12px;
     box-shadow: var(--card-shadow);
 }
 
-#about-content h1,
-#about-content h2,
-#about-content h3 {
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
     margin-top: 1.5em;
     color: var(--primary-color);
 }
 
-#about-content h3 {
+.markdown-content h3 {
     font-size: 1.3rem;
     /* Slightly smaller than h2 but distinct */
     font-weight: 600;
     margin-bottom: 0.5em;
 }
 
-#about-content p {
+.markdown-content p {
     margin-bottom: 1em;
     font-size: 1.05rem;
 }
 
-#about-content ul {
+.markdown-content ul {
     list-style: disc;
     padding-left: 20px;
     margin-bottom: 1em;
 }
 
-#about-content li {
+.markdown-content li {
     margin-bottom: 0.5em;
 }
 

@@ -1,23 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Load About Content
-    const aboutContentDiv = document.getElementById('about-content');
-    const aboutMdPath = 'about.md';
+    // Load markdown content into a target element
+    const loadMarkdown = (elementId, mdPath) => {
+        const contentDiv = document.getElementById(elementId);
 
-    fetch(aboutMdPath)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`Failed to load markdown file: ${response.statusText}`);
-            }
-            return response.text();
-        })
-        .then(markdown => {
-            // Use marked.js to parse markdown
-            aboutContentDiv.innerHTML = marked.parse(markdown);
-        })
-        .catch(error => {
-            console.error('Error loading markdown:', error);
-            aboutContentDiv.innerHTML = '<p>Error loading content. Please try again later.</p>';
-        });
+        fetch(mdPath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Failed to load markdown file: ${response.statusText}`);
+                }
+                return response.text();
+            })
+            .then(markdown => {
+                // Use marked.js to parse markdown
+                contentDiv.innerHTML = marked.parse(markdown);
+            })
+            .catch(error => {
+                console.error('Error loading markdown:', error);
+                contentDiv.innerHTML = '<p>Error loading content. Please try again later.</p>';
+            });
+    };
+
+    loadMarkdown('about-content', 'about.md');
+    loadMarkdown('invited-talks-content', 'invited-talks.md');
 
     // Smooth Scrolling for Navigation Links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
