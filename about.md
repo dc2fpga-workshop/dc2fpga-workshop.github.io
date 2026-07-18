@@ -29,7 +29,7 @@ If you would like to participate in the workshop, please submit a short abstract
 
 ### Important dates
 
-- Submission deadline: **July 18, 2026**
+- Submission deadline: **July 18, 2026 (AoE)**
 - Nortification date: **July 29, 2026**
 - Workshop date: **September 29, 2026**
 
