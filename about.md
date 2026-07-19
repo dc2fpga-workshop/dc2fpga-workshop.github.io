@@ -25,6 +25,8 @@ If you would like to participate in the workshop, please submit a short abstract
 
 ### Submission form
 
+**The deadline has passed. Thank you for your submissions!**
+
 <a href="https://forms.gle/Tu5U3pn27EBqNWup9" target="_blank" rel="noopener noreferrer">https://forms.gle/Tu5U3pn27EBqNWup9</a>
 
 ### Important dates
