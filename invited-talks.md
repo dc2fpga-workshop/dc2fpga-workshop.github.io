@@ -21,5 +21,19 @@ Lucian Petrica is a principal engineer in AMD Research. He has 20 years of FPGA 
 
 ---
 
+### Distributing a Quantum Error Correction Decoder Across an FPGA Cluster
+
+**Jan Wichmann**, RIKEN Center for Computational Science
+
+**Abstract.**
+Quantum computing is an emerging technology, promising to solve problems that are classically intractable. Quantum error correction (QEC) is an approach to overcome qubit instabilities and quantum gate errors, allowing large-scale quantum computers to become a reality. An important part of the QEC process is decoding. It requires processing error correction data on classical hardware at microsecond timescales.
+
+In this talk we present a novel decoding algorithm that distributes the workload across our FPGA cluster ESSPER 2 without excessive inter-FPGA communication. Previous works have demonstrated that FPGAs can meet most requirements for fast and accurate QEC decoding, though scaling has been limited by the size of an individual chip. Our syndrome subgraph algorithm overcomes this limitation through hybrid vertex-level and pipeline parallelism, opening a path to QEC decoders that scale a single decoding instance across many FPGAs, complementing established ensemble techniques.
+
+**BIO.**
+Jan Wichmann is a research scientist at the RIKEN Center for Computational Science in Kobe, Japan. A physicist by training, he specializes in quantum error correction, working closely with computer scientists to develop fast QEC decoding algorithms and implement them on FPGAs. He also works on system integration of the various components needed to build fault-tolerant quantum computers. He holds a PhD in condensed matter theory from Tohoku University.
+
+---
+
 Other talks are coming soon!
 
