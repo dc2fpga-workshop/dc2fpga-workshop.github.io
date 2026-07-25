@@ -35,5 +35,13 @@ Jan Wichmann is a research scientist at the RIKEN Center for Computational Scien
 
 ---
 
-Other talks are coming soon!
+### Invited Talk #3 (Title: TBD)
+
+**Aaron Landy**, Microsoft
+
+**Abstract.** 
+TBD
+
+**BIO.**
+TBD
 
