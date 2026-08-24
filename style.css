@@ -406,11 +406,20 @@ ul {
     border-bottom: none;
 }
 
+.schedule-list li.invited {
+    background: rgba(52, 152, 219, 0.06);
+    border-left: 3px solid var(--accent-color);
+    padding-left: 15px;
+    margin-left: -15px;
+}
+
 .schedule-list .time {
     font-weight: 600;
     color: var(--accent-color);
-    width: 80px;
+    min-width: 110px;
     flex-shrink: 0;
+    white-space: nowrap;
+    padding-right: 10px;
 }
 
 .schedule-list .event {
