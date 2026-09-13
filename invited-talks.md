@@ -40,8 +40,10 @@ Jan Wichmann is a research scientist at the RIKEN Center for Computational Scien
 **Aaron Landy**, Microsoft
 
 **Abstract.** 
-TBD
+A fast hardware pipeline is just the first step in building an accelerated cloud service. Building, deploying, and maintaining a cloud acceleration system is an end-to-end system design problem with numerous unique challenges. Where should accelerators be deployed, and how many are needed? Where is the data, how quickly can it reach the accelerator, and how must it be handled? How will developers efficiently design, validate, iterate, and monitor a complex hardware and software system? How will a new accelerator integrate into the existing cloud software and hardware landscape? Do hardware-level speedups yield end-to-end performance gains in a distributed system? Can those performance gains deliver real business value?
+
+At Microsoft, we have used FPGAs to deploy accelerators for applications in search, software-defined networking, storage virtualization, machine learning, and data analytics, among others. In this talk, we discuss the challenges of building hardware accelerators in a hyperscale cloud, solutions we have employed, and lessons learned from more than a decade of FPGAs running production workloads at Microsoft.
 
 **BIO.**
-TBD
+Aaron Landy is a hardware engineering manager at Microsoft Azure. He has spent the last 10 years working across the hardware and software stack to architect, build, optimize, deploy, and maintain FPGA-based accelerators in Azure. He currently leads a multi-disciplinary team focused on pathfinding new applications, pushing the limits of FPGA performance, and accelerating the hardware and software co-design process.
 
