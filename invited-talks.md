@@ -35,7 +35,7 @@ Jan Wichmann is a research scientist at the RIKEN Center for Computational Scien
 
 ---
 
-### Invited Talk #3 (Title: TBD)
+### How hard can it be? Lessons learned building accelerators at cloud scale
 
 **Aaron Landy**, Microsoft
 
