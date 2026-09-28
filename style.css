@@ -146,6 +146,25 @@ ul {
         1px 1px 0 #000;
 }
 
+.hero-colocated {
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin-top: 10px;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.hero-colocated a {
+    color: #7ec8ff;
+}
+
+.hero-colocated a:hover {
+    color: #fff;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -173,6 +192,12 @@ ul {
     color: var(--primary-color);
     margin-bottom: 30px;
     text-align: center;
+}
+
+.section-note {
+    text-align: center;
+    color: #555;
+    margin: -15px 0 30px;
 }
 
 /* Markdown Content (About, Invited Talks, etc.) */
